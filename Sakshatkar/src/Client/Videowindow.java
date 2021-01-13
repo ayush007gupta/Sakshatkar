@@ -110,10 +110,10 @@ public class Videowindow extends javax.swing.JFrame {
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
 
-        if(vs==null)
-             System.out.println("vs is null in videowindow");
+        if(vs==null||as==null)
+             System.out.println("vs or as is null in videowindow");
         vs.fun2();
- 
+        as.fun2();  
 
     }//GEN-LAST:event_jButton3ActionPerformed
    
